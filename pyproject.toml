@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spotipy-mixer"
+version = "0.1.0"
+description = "This python script mix a spotify playlist by changing the order of the tracks that the playlist contains."
+authors = ["fperez08 <francisco.pgarcia@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spotipy_mixer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spotipy = "^2.22.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
