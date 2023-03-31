@@ -20,7 +20,7 @@ found_playlist = [
 ]
 
 if not found_playlist:
-    print("Playlist not found")
+    raise Exception(f"Playlist {target_playlist_name} not found")
 
 playlist_uri = found_playlist[0].get("id", None)
 playlist_name = found_playlist[0].get("name", None)
