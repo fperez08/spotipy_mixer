@@ -17,9 +17,6 @@ pylama = "^8.4.1"
 black = "^23.3.0"
 
 
-[tool.poetry.group.pipeline.dependencies]
-dagger = "^1.3.0"
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
